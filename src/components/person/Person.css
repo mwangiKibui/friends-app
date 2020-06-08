@@ -1,0 +1,64 @@
+
+
+.person{
+    margin: 10px auto;
+    width: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.person-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.person-card-img-container{
+    width: 30%;
+}
+
+
+.person-card-details{
+    width: 70%;
+}
+
+.person-card-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.person-card-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+/** media queries **/
+
+@media(max-width:991px){
+
+    .person{
+        margin: 10px auto;
+        width: 90%;
+        border: 1px solid grey;
+        padding: 10px;
+    }
+
+    .person-card-img-container{
+        width: 50%;
+    }
+
+    .person-card-details{
+        width: 50%;
+    }
+
+    .person-card-img{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        align-self: center;
+        margin-top: 20px;
+    }
+    
+
+}
